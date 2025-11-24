@@ -77,7 +77,7 @@ Rails.application.configure do
 
   # Use a different logger for distributed setups.
   # require 'syslog/logger'
-  config.logger = Logger.new(STDOUT)
+  # config.logger = Logger.new(STDOUT)
 
 
   # Bullet configuration to fix the N+1 queries
