@@ -104,6 +104,6 @@ Rails.application.configure do
 
   Rails.application.routes.default_url_options = { host: ENV['FRONTEND_URL'] }
 
-  config.logger = Logger.new(STDOUT)
+  # config.logger = Logger.new(STDOUT)
 
 end
