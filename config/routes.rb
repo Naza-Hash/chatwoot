@@ -625,4 +625,7 @@ Rails.application.routes.draw do
   # ----------------------------------------------------------------------
   # Routes for testing
   resources :widget_tests, only: [:index] unless Rails.env.production?
+  # ChatGPT widget endpoint
+post '/widget/chat', to: 'widget/chat#reply'
+
 end
