@@ -52,4 +52,3 @@ window.onload = () => {
     window.chatwootPubsubToken
   );
 };
-import "../widget/ai_widget";
